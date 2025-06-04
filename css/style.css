@@ -1,0 +1,88 @@
+body {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #777777;
+}
+
+header {
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.headerBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header .logo {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header .menu_nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+header .menu_nav .nav-item {
+    margin-right: 43px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+header .dropdown-menu {
+    position: absolute;
+    top: 120%;
+    left: 0px;
+    min-width: 200px;
+    text-align: left;
+    opacity: 0;
+    -webkit-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+    visibility: hidden;
+    display: block;
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
+    float: none;
+}
+
+header .dropdown-toggle:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+
+header .navbar-right {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+header .lnr-magnifier:before {
+    content: "\e86f";
+}
