@@ -241,20 +241,22 @@ main .banner .bannerBody .bannerContent a:hover {
 }
 
 .galeria {
-  height: 832.125px;
+  /* height: 832.125px; */
   padding-right: 15px;
   padding-left: 15px;
   margin-right: 32.5px;
   margin-left: 32.5px;
+  display: flex;
+  justify-content: center;
 }
 
 .galeriaBody {
-  height: 832.125px;
+  /* height: 832.125px; */
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
   gap: 30px;
+  max-width: 1170px;
 }
 
 .galeria .item_galeria {
@@ -264,7 +266,8 @@ main .banner .bannerBody .bannerContent a:hover {
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: 22.5%;
-  max-width: 218px;
+  max-width: 262.5px;
+  max-height: 308px;
 }
 
 .galeria .item_galeria:before {
@@ -511,7 +514,7 @@ main .banner .bannerBody .bannerContent a:hover {
 }
 
 .instagramAreaBody {
-  max-width: 960px;
+  max-width: 1170px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -576,7 +579,7 @@ footer {
 }
 
 .footerBody {
-  max-width: 960px;
+  max-width: 1170px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
