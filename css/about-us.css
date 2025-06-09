@@ -1,0 +1,58 @@
+header .menu_nav .nav-item:nth-child(4) .nav-link {
+    color: #fcdc00;
+}
+
+main .banner {
+    min-height: 400px;
+    background: url(../assets/images/home-banner.jpg.jpeg) no-repeat scroll top center;
+    display: flex;
+    align-items: center;
+}
+
+main .banner .bannerBody {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main .banner .bannerBody .bannerContent {
+    text-align: center;
+}
+
+main .banner .bannerBody .bannerContent h2 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+    padding-top: 60px;
+}
+
+main .banner .bannerBody .bannerContent a {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    margin-right: 32px;
+    position: relative;
+}
+
+main .banner .bannerBody .bannerContent a:hover {
+    color: #fcdc00;
+}
+
+main .banner .bannerBody .bannerContent a:last-child {
+    margin-right: 0px;
+}
+
+main .banner .bannerBody .bannerContent a:first-child::before {
+    content: "\e87a";
+    font-family: 'Linearicons-Free';
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

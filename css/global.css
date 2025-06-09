@@ -265,6 +265,10 @@ header .navbar-right .search {
   border-style: none;
 }
 
+.instagram_images a:hover img {
+  transform: scale(1.05);
+}
+
 /* FOOTER */
 
 footer {
