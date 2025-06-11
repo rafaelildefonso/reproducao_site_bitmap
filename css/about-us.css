@@ -71,6 +71,45 @@ main .banner .bannerBody .bannerContent a:first-child::before {
     margin-left: auto;
 }
 
+.find_inner {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.find_inner .find_text {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.find_inner .find_text .find_text_inner {
+    background: #fff;
+    margin-top: -140px;
+    z-index: 2;
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.find_inner .find_text .find_text_inner h4 {
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 22px;
+}
+
 .clientFeedback {
     padding-top: 120px;
     padding-bottom: 120px;
