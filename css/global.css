@@ -150,6 +150,10 @@ header .menu_nav .nav-item {
   position: relative;
 }
 
+header .menu_nav>.nav-item:hover>.nav-link{
+  color: #fcdc00;
+}
+
 header .menu_nav .nav-item:last-child {
   margin-right: 0;
 }

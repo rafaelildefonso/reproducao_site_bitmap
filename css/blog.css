@@ -3,10 +3,23 @@ header .menu_nav> .nav-item:nth-child(6)> .nav-link {
 }
 
 main .banner {
-    min-height: 900px;
-    background: url(../assets/images/home-banner.jpg.jpeg) no-repeat scroll center center;
+    min-height: 780px;
+    /* background: url(../assets/images/banner-2.jpeg) no-repeat scroll center center; */
     display: flex;
     align-items: center;
+    background: #04091e;
+    position: relative;
+    z-index: -1;
+}
+
+main .bannerImage {
+    background: url(../assets/images/banner-2.jpeg) no-repeat scroll center center;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 main .banner .bannerBody {
@@ -15,46 +28,52 @@ main .banner .bannerBody {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    max-width: 1170px;
 }
 
 main .banner .bannerBody .bannerContent {
-    background: #000;
-    max-width: 555px;
+    max-width: 700px;
     margin: auto;
-    padding: 45px 60px;
     color: #fff;
+    margin-top: 90px;
     text-align: center;
 }
 
 main .banner .bannerBody .bannerContent h2 {
-    font-size: 36px;
+    font-size: 60px;
+    font-weight: 600;
     font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    margin-bottom: 20px;
+    line-height: 66px;
+    margin-bottom: 15px;
 }
 
 main .banner .bannerBody .bannerContent p {
-    margin-bottom: 0px;
-    margin-top: 0;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+main .banner .bannerBody .bannerContent h2 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 66px;
+    margin-bottom: 15px;
+}
+
+main .banner .bannerBody .bannerContent p {
+    font-size: 16px;
+    margin-bottom: 35px;
 }
 
 main .banner .bannerBody .bannerContent a {
-    background: #fcdc00;
-    border-radius: 0px;
-    border: none;
-    color: #222222;
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 0px 28px;
     line-height: 40px;
-    transition: all 300ms linear 0s;
-    margin-bottom: -110px;
+    background: #fff;
+    color: #222222;
+    padding: 0px 38px;
+    font-size: 14px;
+    font-weight: 500;
     display: inline-block;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    user-select: none;
+    transition: all 300ms linear 0s;
 }
 
 main .banner .bannerBody .bannerContent a:hover {
