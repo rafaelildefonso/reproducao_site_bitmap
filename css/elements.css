@@ -1,4 +1,4 @@
-header .menu_nav .nav-item:nth-child(5) .nav-link {
+header .menu_nav> .nav-item:nth-child(5) .nav-link {
     color: #fcdc00;
 }
 
@@ -55,4 +55,9 @@ main .banner .bannerBody .bannerContent a:first-child::before {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+main .elements {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }

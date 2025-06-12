@@ -1,4 +1,4 @@
-header .menu_nav .nav-item:nth-child(4) .nav-link {
+header .menu_nav> .nav-item:nth-child(4) .nav-link {
     color: #fcdc00;
 }
 
@@ -108,6 +108,14 @@ main .banner .bannerBody .bannerContent a:first-child::before {
     font-size: 24px;
     line-height: 36px;
     margin-bottom: 22px;
+}
+
+.find_inner .find_text .find_text_inner p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #777777;
+    margin-bottom: 0px;
 }
 
 .clientFeedback {
