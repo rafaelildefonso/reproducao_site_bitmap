@@ -61,6 +61,12 @@ p {
   margin-top: 0;
 }
 
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
 h1,
 h2,
 h3,
@@ -150,7 +156,7 @@ header .menu_nav .nav-item {
   position: relative;
 }
 
-header .menu_nav>.nav-item:hover>.nav-link{
+header .menu_nav > .nav-item:hover > .nav-link {
   color: #fcdc00;
 }
 
@@ -227,8 +233,8 @@ header .nav-item.submenu:hover ul {
 }
 
 .nav-item ul .nav-item:hover .nav-link {
-    background: #fcdc00;
-    color: #222222;
+  background: #fcdc00;
+  color: #222222;
 }
 
 header .navbar-right {
